@@ -1,6 +1,6 @@
-import anthropic
+import anthropic # type: ignore
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 from prompts import SYSTEM_PROMPT, build_user_prompt
 
 load_dotenv()
